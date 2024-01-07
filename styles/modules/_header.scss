@@ -1,0 +1,88 @@
+header {
+  flex: 0 0 413px;
+}
+
+.card {
+  background-color: $blanco;
+  border-radius: 12px;
+  padding: 23px;
+  margin-bottom: 44px;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+  &__photo {
+    max-width: 366px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  &__name {
+    font-size: 24px;
+    color: $titulo;
+  }
+  &__specialization {
+    font-size: 18px;
+    color: $texto;
+    margin-bottom: 31px;
+  }
+  &__contact {
+    margin-bottom: 34px;
+    &__text {
+      font: 18px;
+      color: $titulo;
+      margin-bottom: 8px;
+      i {
+        margin-right: 16px;
+      }
+    }
+  }
+  &__aboutme {
+    color: $texto;
+    font-size: 18px;
+    padding-right: 2rem;
+  }
+  &__title{
+    font-size: 24px;
+    font-weight: 500;
+    color: $titulo;
+  }
+  &__experience {
+    display: flex;
+    align-items: start;
+    margin-top: 44px;
+    gap: 16px;
+    &__logo{
+      max-width: 84px;
+    }
+    &__content {
+      &__date {
+        font-size: 14px;
+        color: $texto;
+        margin-bottom: 12px;
+      }
+      &__position {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 33px;
+        color: $subtitulo;
+      }
+      &__text {
+        font-size: 16px;
+        color: $texto;
+      }
+    }
+  }
+  &__hobbie {
+    margin-top: 26px;
+    &__image {
+      width: 100%;
+      margin-bottom: 26px;
+    }
+    &__title {
+      font-weight: 600;
+      color: $subtitulo;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    &__text {
+      color: $texto;
+    }
+  }
+}

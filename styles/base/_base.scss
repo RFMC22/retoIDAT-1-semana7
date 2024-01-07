@@ -1,0 +1,39 @@
+@import 'colors';
+@import 'fonts';
+
+*, 
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: $background;
+  font-family: $montserrat;
+}
+
+main {
+  width: 100%;
+  max-width: 1305px;
+  margin:auto;
+  padding: 71px 0 0 0;
+  display: flex;
+  gap: 32px;
+}
+
+@media (max-width: 1285px) {
+  main {
+    width: 840px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 400px;
+    flex-wrap: wrap;
+  }
+}
